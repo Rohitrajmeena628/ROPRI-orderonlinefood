@@ -69,7 +69,7 @@ nav ul li a:hover {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background-image: url('bp.png.webp');
+    background-image: url('../bp.png.webp');
     background-size: cover;
     background-position: center;
     color: white;
@@ -157,6 +157,7 @@ footer {
         width: 90%;
     }
 }
+
 
 
 
