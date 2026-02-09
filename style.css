@@ -70,7 +70,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 80px 20px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url("../bp.png.webp");
+                url("..bp.png.webp");
     background-size: cover;
     background-position: center;
     color: white;
@@ -158,3 +158,4 @@ footer {
         width: 90%;
     }
 }
+
