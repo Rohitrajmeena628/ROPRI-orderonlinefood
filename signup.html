@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Sign Up</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff4b2b, #ff416c);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signup-container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .logo img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #ff4b2b;
+            margin-bottom: 20px;
+        }
+
+        .input-box {
+            margin-bottom: 15px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .input-box input:focus {
+            border-color: #ff4b2b;
+        }
+
+        .signup-btn {
+            width: 100%;
+            padding: 12px;
+            background: #ff4b2b;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .signup-btn:hover {
+            background: #e63e20;
+        }
+
+        .extra-links {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .extra-links a {
+            text-decoration: none;
+            color: #ff4b2b;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="signup-container">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="ropri.png" alt="Food Delivery Logo">
+        </div>
+
+        <h2>Create Account</h2>
+
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Create Password" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+
+            <button class="signup-btn">Sign Up</button>
+        </form>
+
+        <div class="extra-links">
+            <p>Already have account? <a href="#">Login</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
